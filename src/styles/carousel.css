@@ -1,0 +1,36 @@
+.OurServicesHeader {
+    position: absolute;
+    bottom: 0;
+    padding-left: 60px;
+    padding-bottom: 400px;
+    font-size: 55px;
+    font-family: "FreightBig Pro";
+    font-weight: bold;
+}
+.OurServicesParagraph {
+    position: absolute; 
+    bottom: 0;
+    padding-left: 60px;
+    padding-bottom: 320px;
+    font-size: 18px;
+    font-family: "FreightBig Pro";
+}
+.IconList {
+    position: absolute;
+    display: inline-flex;
+    bottom: 0;
+    padding-left: 60px;
+    padding-bottom: 160px;
+    list-style: none;
+    text-align: center;
+}
+.IconListItem {
+    padding-left: 35px;
+}
+ul li span {
+    display: block;
+    padding-top: 10px;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: bold;
+}
