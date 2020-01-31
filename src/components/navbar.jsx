@@ -3,9 +3,9 @@ import { Link, NavLink } from "react-router-dom";
 
 const NavBar = () => {
   return (
-    <nav className="nav flex-column navbar-light">
+    <nav className="flex-column navbar-light">
       <Link className="" to="/">
-        <img src="https://newrepublique.com/wp-content/themes/newrepublique/img/LOGO_Big_RGB.png" />
+        <img src="https://newrepublique.com/wp-content/themes/newrepublique/img/LOGO_Big_RGB.png" alt="Logo" />
       </Link>
       {/* <button
         className="navbar-toggler"
@@ -20,7 +20,13 @@ const NavBar = () => {
       </button> */}
       <div className="menu-items" id="navbarNav">
         <ul className="navbar-nav">
-          <li className="">
+        <li className="nav-item">
+            <NavLink className="nav-link" to="/">
+              HOME
+              <span className="item_border" rel="HOME"></span>
+            </NavLink>
+          </li>
+          <li className="nav-item">
             <NavLink className="nav-link" to="/about-us">
               ABOUT US
               <span className="item_border" rel="ABOUT US"></span>
