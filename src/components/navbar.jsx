@@ -3,7 +3,7 @@ import { Link, NavLink } from "react-router-dom";
 
 const NavBar = () => {
   return (
-    <nav style={{paddingRight: "10px"}} className="flex-column navbar-light">
+    <nav style={{padding: "20px 15px 10px 0"}} className="flex-column navbar-light">
       <Link className="" to="/">
         <img src="https://newrepublique.com/wp-content/themes/newrepublique/img/LOGO_Big_RGB.png" alt="Logo" />
       </Link>
