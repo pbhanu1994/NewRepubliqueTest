@@ -11,9 +11,10 @@
     position: absolute; 
     bottom: 0;
     padding-left: 60px;
-    padding-bottom: 320px;
+    padding-bottom: 310px;
     font-size: 18px;
     font-family: FreightBig Pro;
+    line-height: 1.8;
 }
 .IconList {
     position: absolute;
@@ -38,7 +39,7 @@ ul li span {
     position: absolute;
     bottom: 0;
     padding-left: 60px;
-    padding-bottom: 220px;
+    padding-bottom: 200px;
     color: inherit;
 }
 .BrandStrategyLink:hover {

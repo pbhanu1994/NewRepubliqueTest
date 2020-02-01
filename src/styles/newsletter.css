@@ -1,0 +1,42 @@
+.NewsLetterSection {
+    width: 100%;
+    float: left;
+    background-color: #f3f3f3;
+}
+.NewsLetterContent {
+    padding: 80px;
+}
+.NewsLetterHeader {
+    padding-bottom: 20px;
+    font-size: 55px;
+    font-weight: bold;
+    font-family: FreightBig Pro;
+    text-align: center;
+}
+.NewsLetterParagraph {
+    padding-bottom: 20px;
+    font-size: 16px;
+    font-family: ProximaNova-Light;
+    text-align: center;
+    line-height: 1.8;
+}
+.NewsLetterLink {
+    bottom: 0;
+    padding-top: 20px;
+    color: inherit;
+    text-align: center;
+    display: inherit;
+}
+.NewsLetterLink:hover {
+    color: inherit;
+}
+.NewsLetterLinkText {
+    padding-bottom: 2px;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: ProximaNova-Semibold;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    border-bottom: 2px solid black;
+    display: inline-block;
+}
