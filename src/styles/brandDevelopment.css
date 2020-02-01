@@ -1,0 +1,41 @@
+.BrandDevelopmentSection {
+    width: 1280px;
+    float: left;
+    display: flex;
+    background-color: #fafafa;
+}
+.BrandDevelopmentImage {
+    float: left;
+}
+.BrandDevelopmentHeader {
+    display: flex;
+    padding: 100px 60px 20px 80px;
+    font-family: FreightBig Pro;
+    font-size: 55px;
+    font-weight: bold;
+}
+.BrandDevelopmentParagraph {
+    font-size: 16px;
+    font-family: ProximaNova-Light;
+    display: flex;
+    line-height: 1.8;
+    padding: 0 80px 10px 80px;
+}
+.BrandDevelopmentLink {
+    bottom: 0;
+    padding-left: 80px;
+    color: inherit;
+}
+.BrandDevelopmentLink:hover {
+    color: inherit;
+}
+.BrandDevelopmentLinkText {
+    padding-bottom: 2px;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: ProximaNova-Semibold;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    border-bottom: 2px solid black;
+    display: inline-block;
+}
