@@ -1,0 +1,17 @@
+.SectionHeader {
+    position: absolute;
+    bottom: 0;
+    padding-left: 60px;
+    padding-bottom: 400px;
+    font-size: 55px;
+    font-family: "FreightBig Pro";
+    font-weight: bold;
+}
+.SectionParagraph {
+    position: absolute; 
+    bottom: 0;
+    padding-left: 60px;
+    padding-bottom: 320px;
+    font-size: 18px;
+    font-family: "FreightBig Pro";
+}

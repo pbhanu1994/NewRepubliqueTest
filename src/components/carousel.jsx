@@ -45,7 +45,7 @@ export default class Carousel extends Component {
                 <Slide index={1}>
                     <h1 className="CarouselHeader">Brand Strategy</h1>
                     <p style={{paddingBottom: "260px"}} className="CarouselParagraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. <br />Sunt placeat fugit, voluptate id possimus error corporis soluta <br />reiciendis tenetur eum ipsam beatae quod ipsum laborum, <br />repellendus laboriosam. Velit, nesciunt libero?</p>
-                    <a href="#" className="BrandStrategyLink"><span className="BrandStrategyLinkText">view related link</span></a>
+                    <a href="#" className="BrandStrategyLink"><span className="BrandStrategyLinkText">view related work</span></a>
                     <img src={BrandStrategy} alt="Brand Strategy" />
                 </Slide>
             </Slider>

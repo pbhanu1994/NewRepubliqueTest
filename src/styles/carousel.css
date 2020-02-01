@@ -4,7 +4,7 @@
     padding-left: 60px;
     padding-bottom: 400px;
     font-size: 55px;
-    font-family: "FreightBig Pro";
+    font-family: FreightBig Pro;
     font-weight: bold;
 }
 .CarouselParagraph {
@@ -13,7 +13,7 @@
     padding-left: 60px;
     padding-bottom: 320px;
     font-size: 18px;
-    font-family: "FreightBig Pro";
+    font-family: FreightBig Pro;
 }
 .IconList {
     position: absolute;
@@ -47,8 +47,9 @@ ul li span {
 .BrandStrategyLinkText {
     padding-bottom: 2px;
     font-size: 14px;
+    font-weight: bold;
+    font-family: ProximaNova-Semibold;
     text-transform: uppercase;
-    font-family: "ProximaNova-Semibold";
     letter-spacing: 3px;
     border-bottom: 2px solid black;
     display: inline-block;
