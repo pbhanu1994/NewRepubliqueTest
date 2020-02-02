@@ -8,14 +8,14 @@
 }
 .NewsLetterHeader {
     padding-bottom: 20px;
-    font-size: 55px;
+    font-size: 4vw;
     font-weight: bold;
     font-family: FreightBig Pro;
     text-align: center;
 }
 .NewsLetterParagraph {
     padding-bottom: 20px;
-    font-size: 16px;
+    font-size: 1vw;
     font-family: ProximaNova-Light;
     text-align: center;
     line-height: 1.8;
@@ -32,7 +32,7 @@
 }
 .NewsLetterLinkText {
     padding-bottom: 2px;
-    font-size: 14px;
+    font-size: 0.8vw;
     font-weight: bold;
     font-family: ProximaNova-Semibold;
     text-transform: uppercase;

@@ -5,7 +5,7 @@ import 'hover.css';
 
 const NavBar = () => {
   return (
-    <nav style={{padding: "20px 15px 10px 0"}} className="flex-column navbar-light">
+    <nav style={{padding: "20px 15px 10px 15px"}} className="flex-column navbar-light">
       <Link className="" to="/">
         <img src="https://newrepublique.com/wp-content/themes/newrepublique/img/LOGO_Big_RGB.png" alt="Logo" />
       </Link>
