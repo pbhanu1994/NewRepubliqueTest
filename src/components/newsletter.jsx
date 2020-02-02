@@ -1,5 +1,6 @@
 import React from 'react';
 import '../styles/newsletter.css';
+import Button from './common/button';
 
 const NewsLetter = () => {
     return ( 
@@ -8,7 +9,11 @@ const NewsLetter = () => {
                 <h1 className="NewsLetterHeader">Stay in touch</h1>
                 <p className="NewsLetterParagraph">Each month we release a newsletter on how we do what we <br />do. Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
                 <input className="form-control" style={{width: "30%", padding: "20px", margin: "auto", fontSize: "12px"}} type="text" placeholder="Enter your email address..."></input>
-                <a href="https://newrepublique.com/work/" className="NewsLetterLink" target="_blank" rel="noopener noreferrer"><span className="NewsLetterLinkText">sign up to our newsletter</span></a>
+                <Button
+                    linkClassName="NewsLetterLink"
+                    spanClassName="NewsLetterLinkText"
+                    spanText="sign up to our newsletter"
+                />
             </div>
         </div>
     );
