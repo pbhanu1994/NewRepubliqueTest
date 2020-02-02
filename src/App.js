@@ -10,7 +10,7 @@ class App extends Component {
 
   render() {
     return (
-      <main className="container">
+      <main className="container-fluid">
         <NavBar />
         <Switch>
           <Route path="/home" component={Home} />
