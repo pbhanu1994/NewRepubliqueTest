@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { CarouselProvider, Slider, Slide, ButtonBack, ButtonNext } from 'pure-react-carousel';
+import Button from './common/button';
 import OurServices from '../assets/images/HeroImage_OurServices.jpg';
 import BrandStrategy from '../assets/images/HeroImage_BrandStrategy.jpg';
 import StrategyIcon from '../assets/icons/Icon_Strategy.png';
@@ -52,7 +53,11 @@ export default class Carousel extends Component {
                     <Slide index={1}>
                         <h1 className="CarouselHeader">Brand Strategy</h1>
                         <p style={{paddingBottom: "260px"}} className="CarouselParagraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. <br />Sunt placeat fugit, voluptate id possimus error corporis soluta <br />reiciendis tenetur eum ipsam beatae quod ipsum laborum, <br />repellendus laboriosam. Velit, nesciunt libero?</p>
-                        <a href="https://newrepublique.com/work/" className="BrandStrategyLink" target="_blank" rel="noopener noreferrer"><span className="BrandStrategyLinkText">view related work</span></a>
+                        <Button
+                            linkClassName="BrandStrategyLinkv"
+                            spanClassName="BrandStrategyLinkText"
+                            spanText="view related work"
+                        />
                         <img src={BrandStrategy} className="CarouselImage" alt="Brand Strategy" />
                     </Slide>
                 </Slider>
