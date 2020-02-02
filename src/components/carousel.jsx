@@ -23,7 +23,7 @@ export default class Carousel extends Component {
                 >
                 <Slider>
                     <Slide index={0}>
-                        <div>
+                        <div className="carouselItems">
                             <h1 className="CarouselHeader">Our services</h1>
                             <p className="CarouselParagraph">The imaginative crafting of psychology, art, technology and
                             <br />
@@ -46,7 +46,7 @@ export default class Carousel extends Component {
                         <img src={OurServices} className="CarouselImage" alt="Our Services" />
                     </Slide>
                     <Slide index={1}>
-                        <div>
+                        <div className="carouselItems">
                             <h1 className="CarouselHeader">Brand Strategy</h1>
                             <p style={{paddingBottom: "260px"}} className="CarouselParagraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. <br />Sunt placeat fugit, voluptate id possimus error corporis soluta <br />reiciendis tenetur eum ipsam beatae quod ipsum laborum, <br />repellendus laboriosam. Velit, nesciunt libero?</p>
                             <a href="#" className="BrandStrategyLink"><span className="BrandStrategyLinkText">view related work</span></a>

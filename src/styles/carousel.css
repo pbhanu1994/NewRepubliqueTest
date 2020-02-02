@@ -1,6 +1,9 @@
 .CarouselImage {
     width: inherit;
 }
+.carouselItems {
+    
+}
 .CarouselHeader {
     position: absolute;
     bottom: 0;
