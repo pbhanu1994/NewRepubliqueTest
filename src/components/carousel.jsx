@@ -11,6 +11,7 @@ import '../styles/carousel.css';
 
 export default class Carousel extends Component {
     render() {
+        const newRepubliqueWorkLink = "https://newrepublique.com/work/";
       return (
         <div className="row">
             <div className="col col-lg-12 col-md-12 col-sm-12" style={{paddingRight: "0"}}>
@@ -30,19 +31,19 @@ export default class Carousel extends Component {
                         business to create beautiful ideas, products and services.</p>
                         <ul className="IconList">
                             <li>
-                                <a href="https://newrepublique.com/work/" className="OurServicesLink" target="_blank" rel="noopener noreferrer">
+                                <a href={newRepubliqueWorkLink} className="OurServicesLink" target="_blank" rel="noopener noreferrer">
                                     <img className="ListIcon" src={StrategyIcon} alt="Strategy Icon"/>
                                     <span className="ListIconLabel">branding, <br />brand strategy</span>
                                 </a>
                             </li>
                             <li className="IconListItem">
-                                <a href="https://newrepublique.com/work/" className="OurServicesLink" target="_blank" rel="noopener noreferrer">
+                                <a href={newRepubliqueWorkLink} className="OurServicesLink" target="_blank" rel="noopener noreferrer">
                                     <img className="ListIcon"src={CROIcon} alt="CRO Icon"/>
                                     <span className="ListIconLabel">conversion <br />rate optimisations</span>
                                 </a>
                             </li>
                             <li className="IconListItem">
-                                <a href="https://newrepublique.com/work/" className="OurServicesLink" target="_blank" rel="noopener noreferrer">
+                                <a href={newRepubliqueWorkLink} className="OurServicesLink" target="_blank" rel="noopener noreferrer">
                                     <img className="ListIcon"src={UXDesignIcon} alt="UXDesign Icon"/>
                                     <span className="ListIconLabel">ux, design, <br />development</span>
                                 </a>
@@ -54,7 +55,7 @@ export default class Carousel extends Component {
                         <h1 className="CarouselHeader">Brand Strategy</h1>
                         <p style={{paddingBottom: "260px"}} className="CarouselParagraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. <br />Sunt placeat fugit, voluptate id possimus error corporis soluta <br />reiciendis tenetur eum ipsam beatae quod ipsum laborum, <br />repellendus laboriosam. Velit, nesciunt libero?</p>
                         <Button
-                            linkClassName="BrandStrategyLinkv"
+                            linkClassName="BrandStrategyLink"
                             spanClassName="BrandStrategyLinkText"
                             spanText="view related work"
                         />

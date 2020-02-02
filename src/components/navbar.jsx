@@ -9,25 +9,8 @@ const NavBar = () => {
       <Link className="" to="/">
         <img src="https://newrepublique.com/wp-content/themes/newrepublique/img/LOGO_Big_RGB.png" className="logo" alt="Logo" />
       </Link>
-      {/* <button
-        className="navbar-toggler"
-        type="button"
-        data-toggle="collapse"
-        data-target="#navbarNav"
-        aria-controls="navbarNav"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
-        <span className="navbar-toggler-icon" />
-      </button> */}
       <div className="menu-items" id="navbarNav">
         <ul className="navbar-nav">
-        {/* <li className="nav-item">
-            <NavLink className="nav-link" to="/">
-              HOME
-              <span className="nav-link-border" rel="HOME"></span>
-            </NavLink>
-          </li> */}
           <li className="nav-item">
             <NavLink className="nav-link" to="/about-us">
               ABOUT US
