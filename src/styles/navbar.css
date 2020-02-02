@@ -5,6 +5,10 @@
     border-top: 1px solid rgba(0, 0, 0, 0.5);
     margin-top: 2px;
 }
+.nav-link {
+  font-size: 14px;
+  font-weight: bold;
+}
 /* .nav-link {
     display: inline-block;
     vertical-align: middle;

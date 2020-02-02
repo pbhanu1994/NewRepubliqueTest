@@ -14,6 +14,8 @@ class App extends Component {
         <NavBar />
         <Switch>
           <Route path="/home" component={Home} />
+          <Route path="/about-us" component={Home} />
+          <Route path="/services" component={Home} />
           <Route path="/not-found" component={NotFound} />
           <Redirect from="/" exact to="/home" />
           <Redirect to="/not-found" />

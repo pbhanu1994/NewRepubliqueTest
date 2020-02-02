@@ -11,7 +11,7 @@ import '../styles/carousel.css';
 export default class Carousel extends Component {
     render() {
       return (
-        <React.Fragment>
+        <div>
             <CarouselProvider
                 totalSlides={2}
                 orientation="vertical"
@@ -52,7 +52,7 @@ export default class Carousel extends Component {
             <ButtonBack style={{display: "none"}}>Back</ButtonBack>
             <ButtonNext style={{display: "none"}}>Next</ButtonNext>
             </CarouselProvider>
-        </React.Fragment>
+        </div>
       );
     }
   }
