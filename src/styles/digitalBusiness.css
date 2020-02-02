@@ -1,6 +1,9 @@
 .DigitalBusinessImage {
     float: left;
 }
+.DigitalBusinessItems {
+    padding-bottom: 30px;
+}
 .DigitalBusinessHeader {
     display: flex;
     padding: 100px 60px 30px 80px;
