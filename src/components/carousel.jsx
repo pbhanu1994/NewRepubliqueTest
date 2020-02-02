@@ -29,16 +29,22 @@ export default class Carousel extends Component {
                         business to create beautiful ideas, products and services.</p>
                         <ul className="IconList">
                             <li>
-                                <img className="ListIcon" src={StrategyIcon} alt="Strategy Icon"/>
-                                <span className="ListIconLabel">branding, <br />brand strategy</span>
+                                <a href="https://newrepublique.com/work/" className="OurServicesLink" target="_blank" rel="noopener noreferrer">
+                                    <img className="ListIcon" src={StrategyIcon} alt="Strategy Icon"/>
+                                    <span className="ListIconLabel">branding, <br />brand strategy</span>
+                                </a>
                             </li>
                             <li className="IconListItem">
-                                <img className="ListIcon"src={CROIcon} alt="CRO Icon"/>
-                                <span className="ListIconLabel">conversion <br />rate optimisations</span>
+                                <a href="https://newrepublique.com/work/" className="OurServicesLink" target="_blank" rel="noopener noreferrer">
+                                    <img className="ListIcon"src={CROIcon} alt="CRO Icon"/>
+                                    <span className="ListIconLabel">conversion <br />rate optimisations</span>
+                                </a>
                             </li>
                             <li className="IconListItem">
-                                <img className="ListIcon"src={UXDesignIcon} alt="UXDesign Icon"/>
-                                <span className="ListIconLabel">ux, design, <br />development</span>
+                                <a href="https://newrepublique.com/work/" className="OurServicesLink" target="_blank" rel="noopener noreferrer">
+                                    <img className="ListIcon"src={UXDesignIcon} alt="UXDesign Icon"/>
+                                    <span className="ListIconLabel">ux, design, <br />development</span>
+                                </a>
                             </li>
                         </ul>
                         <img src={OurServices} className="CarouselImage" alt="Our Services" />
@@ -46,7 +52,7 @@ export default class Carousel extends Component {
                     <Slide index={1}>
                         <h1 className="CarouselHeader">Brand Strategy</h1>
                         <p style={{paddingBottom: "260px"}} className="CarouselParagraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. <br />Sunt placeat fugit, voluptate id possimus error corporis soluta <br />reiciendis tenetur eum ipsam beatae quod ipsum laborum, <br />repellendus laboriosam. Velit, nesciunt libero?</p>
-                        <a href="#" className="BrandStrategyLink"><span className="BrandStrategyLinkText">view related work</span></a>
+                        <a href="https://newrepublique.com/work/" className="BrandStrategyLink" target="_blank" rel="noopener noreferrer"><span className="BrandStrategyLinkText">view related work</span></a>
                         <img src={BrandStrategy} className="CarouselImage" alt="Brand Strategy" />
                     </Slide>
                 </Slider>
