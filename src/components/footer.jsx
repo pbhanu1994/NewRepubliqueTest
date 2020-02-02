@@ -4,6 +4,7 @@ import LinkedInIcon from '../assets/icons/social/linkedin.png';
 import YouTubeIcon from '../assets/icons/social/youtube.png';
 import SlideShareIcon from '../assets/icons/social/slideshare.png';
 import InstagramIcon from '../assets/icons/social/instagram.png';
+import '../styles/footer.css';
 
 const socialIcons = [
     {_id: "1", name: "Facebook", link: "#", icon: FacebookIcon},
@@ -15,12 +16,14 @@ const socialIcons = [
 
 const Footer = () => {
     return ( 
-        <div>
-            {socialIcons.map(socialIcon => (
-                <a key={socialIcon._id} href={socialIcon.link}>
-                    <img src={socialIcon.icon} alt={socialIcon.name} />
-                </a>
-            ))}
+        <div className="footerSection">
+            <div className="socialIconsSection">
+                {socialIcons.map(socialIcon => (
+                    <a key={socialIcon._id} href={socialIcon.link} className="socialIconLink">
+                        <img className="socialIcon" src={socialIcon.icon} alt={socialIcon.name} />
+                    </a>
+                ))}
+            </div>
         </div>
     );
 }

@@ -1,0 +1,23 @@
+.footerSection {
+    width: 100%;
+    float: left;
+    text-align: center;
+    padding: 3%;
+    background-color: #000000;
+}
+.socialIconsSection {
+    display:inline-block;
+}
+.socialIconLink {
+    padding: 5px;
+}
+.socialIcon {
+    width: 40px;
+    border: 1px solid #3f4046;
+    border-radius: 50%;
+    background-color: #ffffff;
+    transition: 1s;
+}
+.socialIcon:hover {
+    background-color: #ff2f92;
+}
