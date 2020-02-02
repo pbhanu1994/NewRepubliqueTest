@@ -7,7 +7,7 @@ const DigitalBusiness = () => {
         <div className="DigitalBusinessSection">
             <div className="row">
                 <div className="col col-lg-12 col-md-12 col-sm-12" style={{paddingRight: "0"}}>
-                    <img className="DigitalBusinessImage" src={DigitalBusinessStrategy} alt="Digital Business Strategy" />
+                    <img className="DigitalBusinessImage img-fluid" src={DigitalBusinessStrategy} alt="Digital Business Strategy" />
                     <div>
                         <h1 className="DigitalBusinessHeader">Digital Business Strategy</h1>
                         <p className="DigitalBusinessParagraph">We work with many organisations to research and assess potential digital, mobile and new technology business models that can help them differentiate, create new revenues or reduce the cost of delivery.</p>
