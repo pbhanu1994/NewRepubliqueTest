@@ -10,7 +10,7 @@ class App extends Component {
 
   render() {
     return (
-      <main>
+      <main style={{display: "inline-flex"}}>
         <NavBar />
         <Switch>
           <Route path="/home" component={Home} />
