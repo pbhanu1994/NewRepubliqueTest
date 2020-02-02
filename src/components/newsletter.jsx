@@ -1,9 +1,9 @@
 import React from 'react';
-import '../styles/newsletter.css';
 import Button from './common/button';
+import '../styles/newsletter.css';
 
 const NewsLetter = () => {
-    return ( 
+    return (
         <div className="NewsLetterSection col col-lg-12 col-md-12 col-sm-12" style={{paddingRight: "0"}}>
             <div className="NewsLetterContent">
                 <h1 className="NewsLetterHeader">Stay in touch</h1>
